@@ -1,0 +1,57 @@
+body
+{
+    background-color: #e3516e;
+}
+
+h1{
+    text-align: center;
+}
+
+.square
+{
+    width:130px;
+    height:130px;
+    background-color: #dd6b4d;
+}
+.circleOne
+{
+    position:fixed;
+    top:0;
+    left:0;
+    width:400px;
+    height:400px;
+    clip-path: circle(42.8% at 0% 0%);
+    background-color:white;   
+}
+
+.active
+{
+    transition: opacity .4s;
+    opacity:100%;
+}
+.inactive
+{
+    transition: opacity .4s;
+    opacity:0%;
+}
+
+.image
+{
+    position:fixed;
+    color:white;
+    transform: scale(20%);
+}
+
+.circleTwo
+{
+    position:fixed;
+    bottom:0;
+    right:0;
+
+    width:400px;
+    height:380px;
+    clip-path: circle(42.8% at 100% 100%);
+    background-color:white;
+    overflow:hidden;
+    z-index:1;
+}
